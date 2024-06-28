@@ -3,7 +3,7 @@ import "./App.css"
 import data from "./mock-data.json"
 import ReadOnlyRow from './components/ReadOnlyRow';
 import EditableRow from './components/EditableRow';
-// import validator from 'validator';
+
 const App = () => {
   const [contacts, setContacts] = useState(data);
   const [addFormData, setAddFormData] = useState({
